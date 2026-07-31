@@ -1,6 +1,6 @@
 # Módulo NFS-e Nacional (Harbour / xHarbour) - Versão Avançada
 
-Biblioteca e conjunto de utilitários em **Harbour** para integração corporativa completa com a **NFS-e Nacional** (Padrão Sped / Sefin Nacional). Esta versão expandida cobre todo o ciclo de vida do documento fiscal: geração de DPS, assinatura digital avançada RSA-SHA256 (XMLDSig), transmissão via REST API com mTLS, gerenciamento de eventos fiscais, validação prévia de schemas e geração local de DANFSe em PDF.
+Biblioteca e conjunto de utilitários em **Harbour** para integração corporativa completa com a **NFS-e Nacional** (Padrão Sped / Sefin Nacional). Esta versão expandida cobre todo o ciclo de vida do documento fiscal: geração de DPS, assinatura digital avançada RSA-SHA256 (XMLDSig) - Não utiliza CAPICOM.DLL, transmissão via REST API com mTLS, gerenciamento de eventos fiscais, validação prévia de schemas e geração local de DANFSe em PDF.
 
 ---
 
