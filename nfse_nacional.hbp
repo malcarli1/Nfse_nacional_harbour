@@ -1,0 +1,39 @@
+#
+# nfse_nacional.hbp
+# Emissor/gestor de NFS-e Nacional (Sefin Nacional): DPS, eventos, cancelamento
+# e consultas. Projeto Harbour standalone.
+#
+
+-stop{!allwin}
+
+-m -n -w3 -es2
+
+-iinclude
+-lhbwin
+-lhbhpdf
+-llibhpdf
+-lhbzebra
+-lpng
+-ljpeg
+-LC:\Borland\bcc58\Lib\PSDK   
+-lcrypt32
+-lcryptui
+-ladvapi32
+-lwinhttp
+
+
+-oexe/nfse_nacional_demo
+
+source/nfse_config.prg
+source/nfse_http.prg
+source/nfse_gzip.c.prg
+source/nfse_gunzip.c.prg
+source/nfse_assina.prg
+source/nfse_dps_gera.prg
+source/nfse_evento_gera.prg
+source/nfse_envio.prg
+source/nfse_consulta.prg
+source/nfse_lote.prg
+source/nfse_pdf_lib.prg
+source/nfse_danfse.prg
+tests/demo_emissao.prg
